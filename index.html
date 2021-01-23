@@ -167,6 +167,10 @@
                 <div class="col-lg-4 mr-auto">
                     <p class="lead">2020 self freelancer prohect <br> Build an ecommerce website for the Brisbane mobile accessory</p>
                 </div>
+
+                <div class="col-lg-4 mr-auto">
+                    <p class="lead">Restart Australia Application <br> Build a web application about monitoring Covid19 data and travelling</p>
+                </div>
             </div>
             <!-- About Section Button-->
             <div class="text-center mt-4">
@@ -176,6 +180,10 @@
     </section>
 
     <div id="my-pdf" style="display: flex;
+    justify-content: center;
+    align-items: center;"></div>
+
+    <div id="my-usydpdf" style="display: flex;
     justify-content: center;
     align-items: center;"></div>
     <!-- Contact Section-->
@@ -440,6 +448,9 @@
     <script>
         var $container = $("#my-pdf");
         PDFObject.embed("referal-letter.pdf", $container);
+
+        var $usydContainer = $("#my-usydpdf");
+        PDFObject.embed("usyd.pdf", $usydContainer);
     </script>
 
     <!-- analytics, unrelated to any example code presented on this page -->
